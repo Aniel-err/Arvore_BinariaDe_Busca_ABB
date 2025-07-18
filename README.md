@@ -22,7 +22,6 @@ Este projeto é um simulador interativo e visual para a estrutura de dados **Ár
 
 
 ## 📸 Screenshot
-Pressione *CTRL e botão esquerdo do mouse* encima de ABB.png para visualizar a imagem.
 ![Screenshot do Simulador Adaptativo](ABB.png)
 
 ## 🛠️ Tecnologias Utilizadas
@@ -32,8 +31,6 @@ Pressione *CTRL e botão esquerdo do mouse* encima de ABB.png para visualizar a 
 * **JavaScript (ES6+)**: Para toda a lógica da estrutura de dados, manipulação do DOM e a renderização dinâmica no Canvas API.
 
 ## 📂 Estrutura do Código
-
-O código-fonte foi organizado de forma modular para promover a clareza e a separação de responsabilidades, uma prática recomendada no desenvolvimento de software:
 
 * **`index.html`**: Estrutura principal da página.
 * **`style.css`**: Estilização visual e responsividade.
