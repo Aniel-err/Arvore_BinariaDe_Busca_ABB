@@ -1,5 +1,3 @@
-// js/main.js
-
 import { ArvoreBinariaBusca } from './Arvore.js';
 import { AlgoritmosBusca } from './AlgoritmosBusca.js';
 import { Desenhista } from './Desenhista.js';
