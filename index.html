@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Interativo de Árvore Binária de Busca (ABB)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador Interativo de Árvore Binária de Busca (ABB)</h1>
+        <p>Um simulador para demonstrar inserção, remoção, busca e travessias em uma ABB.</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <input type="number" id="valorInput" placeholder="Digite um valor numérico" aria-label="Valor para operar na árvore">
+            <button id="inserirBtn">1. Inserir</button>
+            <button id="buscarBtn">2. Buscar</button>
+            <button id="removerBtn">3. Remover</button>
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="treeCanvas" width="1200" height="600">
+                Seu navegador não suporta o elemento canvas.
+            </canvas>
+        </div>
+
+        <div class="info-section">
+            <h2>Resultados das Travessias e Buscas</h2>
+            <div class="traversals">
+                <h3>Buscas em Profundidade (Depth-First Search - DFS)</h3>
+                <p><strong>Pré-ordem (Raiz, Esquerda, Direita):</strong> <code id="preOrdemResultado">[]</code></p>
+                <p><strong>Em-ordem (Esquerda, Raiz, Direita):</strong> <code id="emOrdemResultado">[]</code></p>
+                <p><strong>Pós-ordem (Esquerda, Direita, Raiz):</strong> <code id="posOrdemResultado">[]</code></p>
+            </div>
+            <div class="traversals">
+                <h3>Busca em Largura (Breadth-First Search - BFS)</h3>
+                <p><strong>Ordem por Nível:</strong> <code id="bfsResultado">[]</code></p>
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
