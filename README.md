@@ -8,8 +8,6 @@ Este projeto é um simulador interativo e visual para a estrutura de dados **Ár
 
 ## ✨ Funcionalidades Principais
 
-O simulador implementa todos os requisitos obrigatórios do trabalho, além de funcionalidades adicionais que aprimoram a experiência do usuário.
-
 ### Operações da ABB
 - [x] **Inserção de Elementos**: Adiciona nós à árvore de forma recursiva, mantendo as propriedades da ABB.
 - [x] **Remoção de Elementos**: Remove nós tratando corretamente os três casos (folha, um filho, dois filhos) de forma recursiva.
